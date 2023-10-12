@@ -1,9 +1,8 @@
 ## Beyond Factuality: A Comprehensive Evaluation of Large Language Models as Knowledge Generators
-This repository contains code for evaluating LLMs-generated knowledge using CONNER.
+This repository contains the code and resources for evaluating Large Language Models (LLMs) in their capacity as knowledge generators. Our research introduces **CONNER**, a COmpreheNsive kNowledge Evaluation fRamework designed to systematically and automatically evaluate the knowledge generated from six important perspectives – *_Factuality, Relevance, Coherence, Informativeness, Helpfulness, and Validity_*.
 
 ## CONNER Framework
 
-![My Image](figs/framework.png)
 
 ### Intrinsic Evaluation
 
@@ -21,7 +20,7 @@ This repository contains code for evaluating LLMs-generated knowledge using CONN
 Please stay tuned, updates will be coming soon.
 
 ## Citation
-
+If you find our work helpful in your research, please consider citing our paper:
 ```
 @misc{chen2023factuality,
       title={Beyond Factuality: A Comprehensive Evaluation of Large Language Models as Knowledge Generators}, 
