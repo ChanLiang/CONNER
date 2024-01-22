@@ -39,6 +39,7 @@ Run the evaluation script that corresponds to your dataset and chosen metric. Re
 bash scripts/${data}_${metric}.sh
 ```
 #### Viewing Results
+Once you have completed the evaluation, you can easily view the results with our provided script:
 ```bash
 # Display the evaluation results. Example usage:
 # bash scripts/nq_factuality_view.sh
