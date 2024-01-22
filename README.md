@@ -46,6 +46,23 @@ bash scripts/${data}_${metric}.sh
 bash scripts/${data}_${metric}_view.sh
 ```
 
+## Model Implementations
+
+Below is a list of models utilized in our CONNER framework for each metric:
+
+| Metric               | Model                           | Source                                              |
+|----------------------|---------------------------------|-----------------------------------------------------|
+| Factuality           | NLI-RoBERTa-large               | [Hugging Face](https://huggingface.co/sentence-transformers/nli-roberta-large) |
+| Factuality           | ColBERTv2                       | [GitHub](https://github.com/stanford-futuredata/ColBERT)                      |
+| Relevance            | BERT-ranking-large              | [GitHub](https://github.com/nyu-dl/dl4marco-bert)                             |
+| Coherence            | GPT-neo-2.7B                    | [Hugging Face](https://huggingface.co/EleutherAI/gpt-neo-2.7B)                |
+| Coherence            | Coherence-Momentum              | [Hugging Face](https://huggingface.co/aisingapore/coherence-momentum)         |
+| Informativeness      | GPT-neo-2.7B                    | [Hugging Face](https://huggingface.co/EleutherAI/gpt-neo-2.7B)                |
+| Helpfulness          | LLaMA-65B                       | [GitHub](https://github.com/facebookresearch/llama/tree/main)                 |
+| Validity             | NLI-RoBERTa-large               | [Hugging Face](https://huggingface.co/sentence-transformers/nli-roberta-large) |
+| Validity             | ColBERTv2                       | [GitHub](https://github.com/stanford-futuredata/ColBERT)                      |
+
+
 ## Citing Our Work
 If you find our work helpful in your research, please citing our paper:
 ```
