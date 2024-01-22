@@ -20,7 +20,7 @@ Here, you'll find the necessary code and resources to replicate our findings and
 
 ## Getting Started
 
-### Setting Up the Environment
+#### Setting Up the Environment
 
 Begin by setting up your Conda environment with the provided `environment.yaml` file, which will install all necessary packages and dependencies.
 
@@ -46,7 +46,7 @@ bash scripts/${data}_${metric}.sh
 bash scripts/${data}_${metric}_view.sh
 ```
 
-## Model Implementations
+#### Model Sources
 
 Below is a list of models utilized in our CONNER framework for each metric:
 
